@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
+    <script type="text/javascript">
+        function getUrl()
+        {
+            var Url = window.location.href;
+            var secondPart = Url.toString().split('?');
+            document.write(secondPart[1]);
+        }
+    </script>
+</head>
+<body>
+    <div class="page">
+        <div class="head"> this is the second page of the project</div>
+        <br />
+        <script>
+            getUrl();
+        </script>
+
+    </div>
+
+</body>
+</html>
